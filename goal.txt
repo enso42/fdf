@@ -1,0 +1,58 @@
+
+
+------------------ 30.6 ----------------
+Main Goal: Display a 2d grid pattern
+
+Idea: 
+0 First Create a 2d grid without heights or colors
+0 Draw that Grid
+0 Draw the Grid with colors
+0 do a very simple version with one peak
+
+
+------------------ 29.6 ----------------
+Main Goal: Display a 2d grid pattern
+
+Subgoal:
+
+Ø create a super struct called t_fdf
+	Ø t_fdf holds
+		- matrix
+		- img_key
+		- win_key
+	Ø t_node holds
+		- X
+		- y
+		- Z
+		- min/max
+		- last
+		- color
+
+Ø 
+0
+------------------ 28.6 ----------------
+Main Goal: Display a 2d grid pattern
+
+Sub-Goals:
+	1. Spell-out the logic of the program
+	2. Fill in the Map - Struct
+	3. Clean up
+
+The Logic of the Program:
+1. Read in the Matrix
+
+2. Initialisiere Fenster, das einen MLX-Kontext hat
+---- *mlx_key = mlx_init();
+---- Initialisiere mlx_init. Metaphorisch: Kreiert Schluessel zu einem neuen Fenster
+
+3. Inititialisiere eine Bild
+---- *img_key = mlx_new_image(mlx_key, Fenster-Breite, Fenster-Hoehe);
+
+4. Lege das Bild auf das Fenster
+---- mlx_image_to_window(mlx_key, img_key, 0, 0);
+---- draws a new instance of an image. It shares the buffer with the image (defined by win_x win_y)
+
+5. Draws an instance of a Picture by Hooking
+---- mlx_loop_hook(matrix[0][0].mlx, draw_line, matrix);
+---- note that matrix needs to be a struct that holds a ptr to img.
+

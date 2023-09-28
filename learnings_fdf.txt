@@ -1,0 +1,15 @@
+
+
+/*
+Learnings:
+https://github.com/codam-coding-college/MLX42/blob/master/docs/Basics.md
+*/
+
+WORDING
+	Declaring a varibale
+	int x;
+	Initializing a varibale
+	x =4;
+
+Malloc 
+	if you have a two dimensional array, you need to create EXTRA space for the null terminator. :( :( :(

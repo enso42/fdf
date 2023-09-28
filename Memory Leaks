@@ -1,0 +1,56 @@
+
+==198725== 2,338 (1,848 direct, 490 indirect) bytes in 11 blocks are definitely lost in loss record 156 of 167
+==198725==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==198725==    by 0x422158: ft_split (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x4025AA: build_matrix (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x40274B: transform_into_struct (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x402EE4: matrix_read_out (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x402FD0: main (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725== 
+==198725== 5,112 (96 direct, 5,016 indirect) bytes in 1 blocks are definitely lost in loss record 162 of 167
+==198725==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==198725==    by 0x4026B8: transform_into_struct (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x402EE4: matrix_read_out (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725==    by 0x402FD0: main (in /nfs/homes/jmuller/Aufgaben/fdf/fdf)
+==198725== 
+==198725== 6,566 (8 direct, 6,558 indirect) bytes in 1 blocks are definitely lost in loss record 163 of 167
+==198725==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==198725==    by 0xB73E487: ???
+==198725==    by 0xB1CB4FD: ???
+==198725==    by 0x71FF511: ???
+==198725==    by 0x71FF727: ???
+==198725==    by 0x7218876: ???
+==198725==    by 0x5904C49: ???
+==198725==    by 0x595D411: ???
+==198725==    by 0x5904012: ???
+==198725==    by 0x4E6EEFF: ???
+==198725==    by 0x4006439: call_init.part.0 (dl-init.c:56)
+==198725==    by 0x4006567: call_init (dl-init.c:33)
+==198725==    by 0x4006567: _dl_init (dl-init.c:117)
+==198725== 
+==198725== 10,608 (16 direct, 10,592 indirect) bytes in 1 blocks are definitely lost in loss record 167 of 167
+==198725==    at 0x48487A9: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==198725==    by 0xA1035A2: ???
+==198725==    by 0xA0E13FF: ???
+==198725==    by 0xA0E15D4: ???
+==198725==    by 0xA0E45B1: ???
+==198725==    by 0xA0E4913: ???
+==198725==    by 0x721A8EE: ???
+==198725==    by 0x72317EF: ???
+==198725==    by 0x76B2001: ???
+==198725==    by 0x76BA053: ???
+==198725==    by 0x71D5A07: ???
+==198725==    by 0x59081CA: ???
+==198725== 
+==198725== LEAK SUMMARY:
+==198725==    definitely lost: 3,032 bytes in 38 blocks
+==198725==    indirectly lost: 23,151 bytes in 328 blocks
+==198725==      possibly lost: 0 bytes in 0 blocks
+==198725==    still reachable: 53,846 bytes in 824 blocks
+==198725==         suppressed: 0 bytes in 0 blocks
+==198725== Reachable blocks (those to which a pointer was found) are not shown.
+==198725== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==198725== 
+==198725== For lists of detected and suppressed errors, rerun with: -s
+==198725== ERROR SUMMARY: 14 errors from 14 contexts (suppressed: 0 from 0)
+Aufgaben/fdf » 

@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"mlx42.h": "c",
+		"stdio.h": "c",
+		"fdf.h": "c",
+		"type_traits": "c",
+		"mlx42_int.h": "c",
+		"mlx42_input.h": "c"
+	}
+}
